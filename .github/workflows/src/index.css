@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@500;600;700;800&family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500;600&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif;
+  --font-display: "Cinzel", Georgia, serif;
+  --font-mono: "JetBrains Mono", ui-monospace, SFMono-Regular, monospace;
+
+  --color-brand-emerald-50: #eefdf6;
+  --color-brand-emerald-100: #d6fbe5;
+  --color-brand-emerald-500: #0f9f59;
+  --color-brand-emerald-800: #0d6e3f;
+  --color-brand-emerald-900: #0a4a2e;
+  --color-brand-emerald-950: #042e1c;
+  
+  --color-brand-gold-100: #fef8e7;
+  --color-brand-gold-500: #e3a817;
+  --color-brand-gold-600: #be8606;
+}
+
+/* Custom background animation and styling rules */
+html, body {
+  background-color: #f8fafc;
+  color: #1e293b;
+  scroll-behavior: smooth;
+  font-family: var(--font-sans);
+}
+
+/* Sleek Interface Premium Glass Card */
+.sleek-card {
+  background: rgba(255, 255, 255, 0.85);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border: 1px solid rgba(226, 232, 240, 0.8);
+  box-shadow: 0 4px 20px -2px rgba(15, 23, 42, 0.05);
+  border-radius: 1rem;
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.sleek-card:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 10px 30px -4px rgba(15, 23, 42, 0.08);
+  border-color: rgba(15, 159, 89, 0.25);
+}
+
+/* Sleek Dark Emerald Card */
+.sleek-dark-card {
+  background: linear-gradient(135deg, #042e1c 0%, #0a4a2e 100%);
+  border: 1px solid rgba(227, 168, 23, 0.25);
+  box-shadow: 0 10px 40px -10px rgba(4, 46, 28, 0.3);
+  border-radius: 1.25rem;
+  transition: all 0.35s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.sleek-dark-card:hover {
+  border-color: rgba(227, 168, 23, 0.45);
+  box-shadow: 0 15px 45px -8px rgba(4, 46, 28, 0.4);
+}
+
+/* Gold Button Design */
+.sleek-btn-gold {
+  background: linear-gradient(135deg, #e3a817 0%, #be8606 100%);
+  color: #042e1c;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  border-radius: 0.75rem;
+  box-shadow: 0 4px 14px 0 rgba(227, 168, 23, 0.3);
+  transition: all 0.25s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.sleek-btn-gold:hover {
+  transform: translateY(-1px);
+  box-shadow: 0 6px 20px 0 rgba(227, 168, 23, 0.45);
+  filter: brightness(1.05);
+}
+
+.sleek-btn-gold:active {
+  transform: translateY(1px);
+}
+
+/* Emerald Button Design */
+.sleek-btn-emerald {
+  background: linear-gradient(135deg, #0a4a2e 0%, #042e1c 100%);
+  color: #fef8e7;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  border-radius: 0.75rem;
+  border: 1px solid rgba(227, 168, 23, 0.2);
+  box-shadow: 0 4px 14px 0 rgba(10, 74, 46, 0.2);
+  transition: all 0.25s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.sleek-btn-emerald:hover {
+  transform: translateY(-1px);
+  border-color: rgba(227, 168, 23, 0.4);
+  box-shadow: 0 6px 20px 0 rgba(10, 74, 46, 0.35);
+}
+
+/* Subtle gold and emerald borders */
+.emerald-gold-border {
+  border: 1px solid;
+  border-image: linear-gradient(to right, #0a4a2e, #e3a817, #0a4a2e) 1;
+}
+
+/* Elegant scrollbar */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: #f1f5f9;
+}
+::-webkit-scrollbar-thumb {
+  background: #cbd5e1;
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #0f9f59;
+}
+
+/* Custom print styles to simulate professional reports */
+@media print {
+  .print-only {
+    display: block !important;
+  }
+  .no-print {
+    display: none !important;
+  }
+}

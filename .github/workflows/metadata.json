@@ -1,0 +1,6 @@
+{
+  "name": "M Hashir Online Quran Academy",
+  "description": "A professional and modern e-Quran academy website featuring a 1-on-1 WebRTC video classroom, direct admission, parent and supervisor dashboards, and a Gemini-powered 24/7 AI Chatbot.",
+  "requestFramePermissions": ["camera", "microphone"],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

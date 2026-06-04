@@ -1,0 +1,238 @@
+{
+  "teachers": [
+    {
+      "id": "t_hashir",
+      "name": "Mufti Zahid Ali",
+      "email": "mhashir.quran@gmail.com",
+      "avatar": "https://images.unsplash.com/photo-1542909168-82c3e7fdca5c?w=150",
+      "qualification": "M.Phil & Ph.D (Islamic Studies), Takhassus (Ashraf-ul-Madaris), Alim Eight-Year Course (Darul Uloom Karachi under Mufti Taqi Usmani)",
+      "experience": "Chairman of Global Organization, 10+ Years of advanced Islamic teaching, certified in Tajweed & Noorani Qaida courses",
+      "courses": [
+        "tajweed",
+        "hifz",
+        "studies"
+      ],
+      "bio": "Mufti Zahid Ali is an eminent scholar who completed his 8-year Alim course from Jamia Darul Uloom Karachi under Mufti Muhammad Taqi Usmani. He holds a Takhassus fil Ifta (Islamic Jurisprudence specialization) from Jamia Ashraf-ul-Madaris Karachi, an M.Phil in Islamic Studies from AWKUM, and is pursuing his Ph.D, alongside certified expertise in Tajweed, Noorani Qaida, Islamic Finance, and Tafseer."
+    },
+    {
+      "id": "t_rahman",
+      "name": "Sheikh Abdul Rahman",
+      "email": "rahman.alazhar@gmail.com",
+      "avatar": "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=150",
+      "qualification": "Shahadah of Ten Qira'at, Certified Tajweed Teacher & Scholar",
+      "experience": "6 Years of Teaching Arabic & Quran Memorization to kids/adults",
+      "courses": [
+        "noorani",
+        "tajweed",
+        "hifz"
+      ],
+      "bio": "Expert tutor specializing in Hifz (Memorization) programs, using cognitive maps and personalized revision cycles for rapid learning."
+    },
+    {
+      "id": "t_fatima",
+      "name": "Hafiza Fatima Sajid",
+      "email": "fatima.hifz@gmail.com",
+      "avatar": "https://images.unsplash.com/photo-1544005313-94ddf0286df2?w=150",
+      "qualification": "Wafaq-ul-Madaris Hifz Certification, Islamic Studies Graduate",
+      "experience": "5 Years teaching female students & girls globally",
+      "courses": [
+        "noorani",
+        "tajweed",
+        "studies"
+      ],
+      "bio": "Dedicated female tutor known for her motivating teaching method. Highly loved by young children starting their Noorani Qaida journey."
+    }
+  ],
+  "students": [
+    {
+      "id": "s_tariq",
+      "name": "Tariq Mahmood",
+      "fatherName": "Mahmood Ali",
+      "email": "tariq.student@example.com",
+      "parentEmail": "mhashironline@gmail.com",
+      "whatsapp": "+44 7911 123456",
+      "age": 10,
+      "courseId": "tajweed",
+      "timezone": "GMT+1 (London)",
+      "status": "active",
+      "daysOfWeek": [
+        "Monday",
+        "Wednesday",
+        "Friday"
+      ],
+      "timeSlot": "16:00 - 16:45",
+      "attendance": [
+        {
+          "id": "a1",
+          "studentId": "s_tariq",
+          "date": "2026-05-25",
+          "status": "present",
+          "notes": "Excited and on time"
+        },
+        {
+          "id": "a2",
+          "studentId": "s_tariq",
+          "date": "2026-05-27",
+          "status": "present"
+        },
+        {
+          "id": "a3",
+          "studentId": "s_tariq",
+          "date": "2026-05-29",
+          "status": "present",
+          "notes": "Excellent practice"
+        },
+        {
+          "id": "a4",
+          "studentId": "s_tariq",
+          "date": "2026-06-01",
+          "status": "present",
+          "notes": "Prepared lesson well"
+        }
+      ],
+      "progress": [
+        {
+          "id": "p1",
+          "studentId": "s_tariq",
+          "date": "2026-06-01",
+          "surah": "Surah Al-Fatiha",
+          "startAyat": 1,
+          "endAyat": 7,
+          "rating": 5,
+          "masteryNotes": "Perfect recitation with exquisite attention to heavy and conversational throat letters. Beautiful Lahja/tone starting to build!"
+        },
+        {
+          "id": "p2",
+          "studentId": "s_tariq",
+          "date": "2026-05-29",
+          "surah": "Surah Al-Baqarah",
+          "startAyat": 1,
+          "endAyat": 5,
+          "rating": 4,
+          "masteryNotes": "Good memorization progress. Help Tariq practice the Madd Al-Munfasil duration (4 counts) more often at home."
+        }
+      ]
+    },
+    {
+      "id": "s_sarah",
+      "name": "Sarah Khan",
+      "email": "sarah.student@example.com",
+      "parentEmail": "khan.family@example.com",
+      "whatsapp": "+1 212 555 7890",
+      "age": 7,
+      "courseId": "noorani",
+      "timezone": "EST (New York)",
+      "status": "active",
+      "daysOfWeek": [
+        "Tuesday",
+        "Thursday"
+      ],
+      "timeSlot": "17:00 - 17:30",
+      "attendance": [
+        {
+          "id": "a5",
+          "studentId": "s_sarah",
+          "date": "2026-05-26",
+          "status": "present"
+        },
+        {
+          "id": "a6",
+          "studentId": "s_sarah",
+          "date": "2026-05-28",
+          "status": "present",
+          "notes": "Quick learning today"
+        }
+      ],
+      "progress": [
+        {
+          "id": "p3",
+          "studentId": "s_sarah",
+          "date": "2026-05-28",
+          "surah": "Noorani Qaida Lesson 4",
+          "startAyat": 1,
+          "endAyat": 15,
+          "rating": 5,
+          "masteryNotes": "Makhraj of letters Saad, Daad, Toa, and Zoa is excellent. Sarah is extremely focused and loves counting the colored star stickers!"
+        }
+      ]
+    }
+  ],
+  "announcements": [
+    {
+      "id": "ann_1",
+      "title": "Eid-ul-Adha Holidays 1447H",
+      "content": "Assalamu Alaikum. The Academy will remain closed from Sunday, June 14, 2026, to Wednesday, June 17, 2026, on the sacred occasion of Eid-ul-Adha. Regular classes will resume on Thursday, June 18. Eid Mubarak to all students and family members!",
+      "date": "2026-06-02",
+      "priority": "high"
+    },
+    {
+      "id": "ann_2",
+      "title": "Summer 2026 Class Slots Open",
+      "content": "Parents who wish to shift their children's active slots to earlier parameters or adjust schedules for summer break can now communicate preferred schedules directly through their Parent Dashboard. Slots are assigned on a first-come, first-served basis.",
+      "date": "2026-05-30",
+      "priority": "normal"
+    }
+  ],
+  "invoices": [
+    {
+      "id": "inv_1",
+      "studentId": "s_tariq",
+      "studentName": "Tariq Mahmood",
+      "month": "June 2026",
+      "amount": 65,
+      "status": "paid",
+      "dueDate": "2026-06-10"
+    },
+    {
+      "id": "inv_2",
+      "studentId": "s_sarah",
+      "studentName": "Sarah Khan",
+      "month": "June 2026",
+      "amount": 50,
+      "status": "paid",
+      "dueDate": "2026-06-10"
+    }
+  ],
+  "books": [
+    {
+      "id": "b_qaida",
+      "title": "تجویدی نورانی قاعدہ (HD Colored Layout)",
+      "author": "Mufti Zahid Ali",
+      "category": "qaida",
+      "description": "نورانی قاعدہ کا مکمل رنگین اور تجویدی ایڈیشن، بچوں اور بڑوں کے ابتدائی سبق سیکھنے کے لیے بہترین رہنما کتاب۔",
+      "url": "#",
+      "uploadedAt": "2026-05-20",
+      "fileSize": "14.2 MB"
+    },
+    {
+      "id": "b_quran",
+      "title": "قرآن مجید تجویدی (Color Coded Tajweed Holy Quran)",
+      "author": "Classical Scholars",
+      "category": "quran",
+      "description": "تجوید کے کلر کوڈز یعنی مد، غنہ، اور قلقلہ کے خوبصورت قواعد کے ساتھ قرآن مجید کا مستند نسخہ۔",
+      "url": "#",
+      "uploadedAt": "2026-05-25",
+      "fileSize": "48.5 MB"
+    },
+    {
+      "id": "b_trans",
+      "title": "آسان فقہ معاملات (Easy Fiqh of Transactions)",
+      "author": "Mufti Zahid Ali",
+      "category": "mufti_books",
+      "description": "روزمرہ کے مالی معاملات، خرید و فروخت اور جدید اسلامی بینک کاری کے شرعی احکام پر مشتمل مفتی صاحب کی بہترین علمی کتاب۔",
+      "url": "#",
+      "uploadedAt": "2026-05-28",
+      "fileSize": "8.1 MB"
+    },
+    {
+      "id": "b_duas",
+      "title": "صبح و شام کی مستند مسنون دعائیں (Golden Duas Daily)",
+      "author": "Mufti Zahid Ali",
+      "category": "mufti_books",
+      "description": "صبح و شام کے اذکار، مسنون دعائیں اور مصیبتوں سے بچاؤ کے مستند نبوی طریقے اور دعاؤں کا مجموعہ۔",
+      "url": "#",
+      "uploadedAt": "2026-06-01",
+      "fileSize": "3.4 MB"
+    }
+  ]
+}
